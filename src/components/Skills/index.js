@@ -13,6 +13,12 @@ function index() {
                                 <li>Javascript</li>
                                 <li>React.JS</li>
                                 <li>Redux</li>
+                                <li>Node.js</li>
+                                <li>Python</li>
+                                <li>Django Flask</li>
+                                <li>Git && GitHub</li>
+                                <li>Trello && Pivotal Tracker</li>
+                                <li>Web design</li>
                             </ol>
                             <span>22 Aug 2021</span>
                         </div>
