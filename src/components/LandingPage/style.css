@@ -1,0 +1,334 @@
+.updates{
+width: 100%;
+height: 60vh;
+background: #2FC8B8;
+}
+.headers{
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+.headers h3{
+color: white;
+text-transform: uppercase;
+margin-left: -180px;
+}
+.headers button{
+    color: white;
+    text-transform: uppercase;
+    margin-right: -180px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #1E776E;
+    }
+.homecontent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.homecontent h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.2rem;
+}
+.homecontent span{
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 10px;
+}
+.homecontent .countryImg{
+    width: 80px;
+    background: white;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.homecontent .countryImg img{
+    width: 40px;
+    height: 30px;
+    padding: 6px 5px 0px 8px;
+}
+.homecontent .inputs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.homecontent .inputs input, .homecontent .inputs input:focus, .homecontent .inputs select:focus{
+    border: none;
+    outline: none;
+    border-right: 1px solid grey;
+}
+.homecontent .inputs button{
+    cursor:pointer;
+    border: none;
+    padding: 8px;
+    background: #1E776E;
+    text-transform: uppercase;
+    color: white;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.homecontent .inputs input{
+    padding: 8px;
+}
+
+.homecontent .inputs input:nth-child(1){
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.homecontent .inputs select{
+    border: none;
+    width: 180px;
+    background: white;
+    border-right: 1px solid grey;
+}
+.homecontent .results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 97px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.homecontent .results .results-number{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: #1E776E;
+    text-align: center;
+    width: 70%;
+    color: white;
+    padding: 10px 0px;
+}
+.homecontent .results .results-number h4 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.homecontent .results .results-number p {
+    margin-bottom: 9px;
+}
+.homecontent .results .details{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 2px 2px 0px lightgray;
+    text-align: center;
+    width: 70%;
+    height: 100px;
+    color: white;
+    /* padding: 10px 0px; */
+}
+.homecontent .results .details .detail-card h5{
+    color: #2FC8B8;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+.homecontent .results .details .detail-card p{
+   
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+.homecontent .results .details .detail-card h7{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 6px;
+    color: #888888;
+}
+.homecontent .results .details .detail-card{
+    color: black;
+}
+
+.continents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    padding-bottom: 20px;
+}
+.continents h2{
+    margin-bottom: 60px;
+}
+.continents .continent-card{
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    /* justify-content: space-between; */
+}
+.continents .continent-card .card{
+    display: flex;
+    background: lightgray;
+    margin: auto 10px;
+    border-radius: 8px;
+    box-shadow: 1px 0px 2px 2px lightgray;
+}
+.left-circle{
+    /* padding: 15px; */
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    background: #13635b;
+    margin-left: -900px;
+    margin-top: 50px;
+    font-size: 2rem;
+    font-weight: 400;
+    cursor: pointer;
+    position: absolute;
+}
+.right-circle{
+    /* padding: 15px; */
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    background: #13635b;
+    margin-right: -900px;
+    font-size: 2rem;
+    font-weight: 400;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 20px;
+}
+.continents .continent-card .card .right{
+    background: #2FC8B8;
+    /* padding: 10px; */
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.continents .continent-card .card .right >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 110px;
+    width: 200px;
+}
+.continents .continent-card .card .right >div:nth-child(2){
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+.continents .continent-card .card .right >div h6{
+    color: white;
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+.continents .continent-card .card .right >div p{
+    font-size: 0.7rem;
+
+}
+.continents .continent-card .card .right >div span{
+    color: white;
+    font-size: 0.7rem;
+    margin-top: 10px;
+}
+
+.continents .continent-card .card .left{
+    display: flex;
+    background: white;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 200px;
+}
+.continents .continent-card .card .left .cases{
+   margin-top: 90px;
+   margin-bottom: 90px;
+   text-align: center;
+}
+.continents .continent-card .card .left .cases h3{
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+ }
+ .continents .continent-card .card .left span{
+    color: grey;
+ }
+ .continents .continent-card .card .left .cases h2{
+    color: #2FC8B8;
+    font-size: 2.5rem;
+ }
+
+ .my-skills{
+     display: flex;
+     background: #EEF6F6;
+ }
+ .my-skills .images{
+    width: 50%;
+}
+.my-skills .images img{
+    width: 100%;
+}
+.my-skills .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.my-skills .skills .skill-card h1{
+    margin-bottom: 30px;
+}
+.my-skills .skills .skill-card >div{
+    padding: 20px;
+}
+.my-skills .skills .skill-card >div h4{
+    margin-left: -20px;
+    padding-bottom: 10px;
+}
+.my-skills .skills .skill-card >div ol{
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.my-skills .skills .skill-card >div span{
+    margin-left: -20px;
+    padding-top: 10px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1E776E;
+    height: 50vh;
+    color: white;
+}
+.contact h1{
+    margin-bottom: 10px;
+}
+.contact >div{
+    margin-top: 15px;
+    width: 250px;
+}
+.contact >div span{
+    margin-left: 30%;
+    margin-bottom: 15px;
+}
+.footer {
+    height: 60px;
+    background: #13635b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .name{
+    margin-left: 50px;
+}
+.footer .lab{
+    margin-right: 50px;
+}
